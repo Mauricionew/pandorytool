@@ -8,6 +8,6 @@ std::string UserFolders::getTemporaryFolder() {
     tmpFolder = tmpFolder + "/";
 #else
     std::string tmpFolder = std::filesystem::temp_directory_path().string()+"/";
-#endif
-    return tmpFolder;
+#starif
+     tmpFolder;
 }
